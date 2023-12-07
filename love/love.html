@@ -170,7 +170,7 @@
     }
 
     const inputField = document.getElementById('inputField');
-    const textToType = "Đặng Cẩm Nhi❤❤❤";
+    const textToType = "Anh Đào ❤❤❤";
     const typingSpeed = 100; // milliseconds per character
 
     let charIndex = 0;
@@ -214,7 +214,7 @@
     // .textLetter text h2
     let indexText = 0;
     let textLetter = document.querySelector('.textLetter h2');
-    const textLetterH2 = "Gửi em!";
+    const textLetterH2 = "Gửi Cậu!";
     let timoutTextLetter;
 
     function textCharLetter(){
@@ -236,13 +236,13 @@
         clearInterval(timoutTextLetter);
         timoutTextLetter =  setInterval(()=>{
                 textCharLetter();
-            }, 200)
+            }, 300)
     }
 
     // chữ của thư bạn muốn gửi
     let indexTextContent = 0;
     let textLetterContent = document.querySelector('.contentLetter');
-    const textLetterP = "Lời chúc ở đây";
+    const textLetterP = "Lời chúc đầy yêu thương";
     let timoutTextLetterContent;
     function textCharLetterContent(){
         if (indexTextContent < textLetterP.length) {
